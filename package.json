@@ -5,7 +5,8 @@
   "homepage": "https://www.cato.castilloquesada.com",
   "main": "app.js",
   "scripts": {
-    "start": "gulp",
+    "start": "gulp dev",
+    "build": "gulp build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -78,6 +79,7 @@
     "gulp-strip-debug": "^3.0.0",
     "gulp-uglifycss": "^1.0.9",
     "vinyl-buffer": "^1.0.0",
-    "vinyl-source-stream": "^2.0.0"
+    "vinyl-source-stream": "^2.0.0",
+    "regenerator-runtime": "^0.13.3"
   }
 }
