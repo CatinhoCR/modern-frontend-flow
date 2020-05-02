@@ -19,6 +19,11 @@ npm run build
 
 ## To Do List (Ordered by Priority - Quick Draft)
 
+* get html string literals from actual html files instead of in-file functions..
+* envs
+* gulp tasks (account for envs)
+* webpack ?
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 

@@ -1,6 +1,7 @@
 "use strict";
 
 import Utils from './../helpers/Utils';
+// import template from './../templates/header.html';
 
 export default class HeaderComponent {
     constructor() {
@@ -8,13 +9,18 @@ export default class HeaderComponent {
     }
 
     async render() {
-        this.brandTitle = "Newstuff";
+        this.brandTitle = "Boilerplate";
         return await this.template();
     }
 
     async after_render() {
 
     }
+
+    /* async templatesss() {
+        const HeaderContent = /*html* /`${template}`;
+        return HeaderContent;
+    } */
 
     async template() {
         // this could be moved to a static HTML file that gets imported in the render function. Leaving as is for now.
@@ -38,9 +44,12 @@ export default class HeaderComponent {
                             <a class="navbar-item" href="/#/">
                                 Home
                             </a>
-                            <button type="button" class="btn" id="add-post-btn" data-target="create-post-form">
+                            <a class="navbar-item" href="/#/about">
+                                About
+                            </a>
+                            <!--<button type="button" class="btn" id="add-post-btn" data-target="create-post-form">
                                 Add New Article
-                            </button>
+                            </button>-->
                             <!--<a class="navbar-item" href="/#/about">
                                 About
                             </a>
