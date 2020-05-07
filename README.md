@@ -29,6 +29,7 @@ npm run start
 
 ## To Do List (Ordered by Priority - Quick Draft)
 
+* Clean up package.json dependencies and remove any unused modules.
 * Make actual build for static files serving work.
 * Front End package management flow.
 * Vendor scripts an styles workflow, and gulp tasks.
