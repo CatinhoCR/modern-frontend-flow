@@ -9,15 +9,13 @@
     "overrides": [{
             "files": "*.json",
             "options": {
-                "tabWidth": 2,
-                "singleQuote": false
+                "tabWidth": 2
             }
         },
         {
             "files": ".prettierrc",
             "options": {
-                "tabWidth": 2,
-                "singleQuote": false
+                "tabWidth": 2
             }
         }
     ]

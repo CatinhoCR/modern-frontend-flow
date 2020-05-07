@@ -8,7 +8,7 @@ A modern front-end starter boilerplate made to use Gulp 4 for watching and compi
 * Gulp
 * Webpack
 * BrowserSync
-* 
+* Scss
 
 ## Installation
 
@@ -29,6 +29,8 @@ npm run start
 
 ## To Do List (Ordered by Priority - Quick Draft)
 
+* Yarn for FE deps
+* Decide: Webpack or Gulp/Browserify !
 * Clean up package.json dependencies and remove any unused modules.
 * Make actual build for static files serving work.
 * Front End package management flow.

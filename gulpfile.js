@@ -6,7 +6,7 @@ var rename = require('gulp-rename');
 var sourcemaps = require('gulp-sourcemaps');
 var plumber = require('gulp-plumber');
 var gulpif = require('gulp-if');
-var replace = require('gulp-replace');
+// var replace = require('gulp-replace');
 const del = require('del');
 var notify = require('gulp-notify');
 var options = require('gulp-options');
@@ -15,8 +15,8 @@ const { argv } = require('yargs');
 // CSS related plugins
 var sass = require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer');
-const cssnano = require('cssnano');
-const postcss = require('gulp-postcss');
+// const cssnano = require('cssnano');
+// const postcss = require('gulp-postcss');
 
 // JS related plugins
 var uglify = require('gulp-uglify');
@@ -25,7 +25,7 @@ var browserify = require('browserify');
 var source = require('vinyl-source-stream');
 var buffer = require('vinyl-buffer');
 var stripDebug = require('gulp-strip-debug');
-const concat = require('gulp-concat');
+// const concat = require('gulp-concat');
 
 // Browers related plugins & functions
 var browserSync = require('browser-sync').create();
